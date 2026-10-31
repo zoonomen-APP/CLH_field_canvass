@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALA: its data as CLH holds them (snapshot clh_2026_08)</title>
+<style>
+body { font-family: Georgia, "Times New Roman", Times, serif; color: #1a1a1a; background: #fff; max-width: 62rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.45; }
+h1 { font-size: 1.6rem; margin-bottom: 0.2rem; } h2 { font-size: 1.2rem; margin-top: 1.8rem; border-bottom: 1px solid #999; } h3 { font-size: 1.05rem; margin: 1.2rem 0 0.3rem; }
+.sub { color: #444; margin-top: 0; } dl { margin: 0.4rem 0; } dt { font-weight: bold; margin-top: 0.5rem; } dd { margin-left: 1.5rem; }
+.read { background: #f4f1ea; border: 1px solid #c9c2b0; padding: 0.6rem 1rem; } .read p { margin: 0.5rem 0; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; } th, td { padding: 0.15rem 0.4rem; vertical-align: top; }
+thead th { position: sticky; top: 0; z-index: 1; background: #fff; box-shadow: inset 0 -1px 0 #555; text-align: left; } td.n { text-align: right; white-space: nowrap; } td.c { color: #777; } td.f { white-space: nowrap; }
+tr.g td { font-weight: bold; padding-top: 0.9rem; border-bottom: 1px solid #bbb; } tr.e td { color: #555; font-style: italic; }
+.val { font-family: "Courier New", Courier, monospace; font-size: 0.85rem; } .mark { color: #8a5a00; }
+@media print { thead th { position: static; } body { margin: 0; max-width: none; font-size: 9.5pt; } h2 { break-after: avoid; } tr { break-inside: avoid; } tr.g td { break-after: avoid; } .read { break-inside: avoid; } @page { margin: 1.5cm; } }
+</style></head><body>
+<h1>Herbarium ALA: its data as CLH holds them</h1>
+<p class="sub">Consortium of Lichen Herbaria, snapshot clh_2026_08 (the public download of the whole portal, August 2026). All records under institutionCode ALA, every country. Page made 2026-10-25 for CLH_field_canvass.</p>
+<h2>What is in it</h2><dl>
+<dt>Records</dt><dd>31,385</dd>
+<dt>Countries</dt><dd>36 different; commonest United States on 27,778 records (88.5% of all records)</dd>
+<dt>Collectors (recordedBy)</dt><dd>333 different; commonest unknown on 8,413 records (26.9% of those with a collector)</dd>
+<dt>Catalog numbers</dt><dd>31,385 records with a catalog number, 26,985 different, so some numbers occur on more than one record (4,400 records more than numbers); the most repeated is UAMb:Herb:2347, on 4 records.</dd>
+<dt>Years (field year)</dt><dd>31,368 records with a year; earliest 1800, latest 2019.<br>
+Before 1800: 0; 1800&ndash;1899: 5,828; 1900&ndash;1949: 124; 1950&ndash;1999: 16,125; 2000&ndash;2026: 9,291; after 2026: 0.
+<br>Records with a year but no eventDate: 23.</dd>
+<dt>Elevations (field minimumElevationInMeters)</dt><dd>16,118 records with an elevation; lowest -91 m, highest 6000 m.<br>
+Below &minus;90 m (lower than any land): 1; &minus;90 to below 0: 0; exactly 0: 0; above 0 to 999: 13,444; 1000s: 2,510; 2000s: 127; 3000s: 33; 4000s: 1; 5000 to 8849: 2; above 8849 m (higher than anywhere on Earth): 0.<br>
+Elevations given in feet (verbatimElevation) with a meters value: 0; of these, converted to meters: 0; meters field holding the feet number unconverted: <b>0</b>.</dd>
+</dl>
+<h2>How the fields are used</h2><dl>
+<dt>Fields holding any value</dt><dd>74 of 106</dd>
+<dt>Filled on 90% or more of records</dt><dd>43</dd>
+<dt>Filled on fewer than 1% of records (but some)</dt><dd>10, rarely used fields, where stray values tend to collect: identificationReferences (3), typeStatus (45), occurrenceRemarks (11), informationWithheld (23), associatedTaxa (8), continent (228), waterBody (11), county (181), minimumDepthInMeters (1), maximumDepthInMeters (1)</dd>
+<dt>The same value on every record</dt><dd>institutionCode, basisOfRecord, kingdom, collID</dd>
+</dl>
+<h2>Supplied by the portal</h2><dl>
+<dt>Portal collection number (collID)</dt><dd>51</dd>
+<dt>Last-modified stamps</dt><dd>5,560 different; commonest 2022-12-06 11:28:51 on 4,612 records (14.7%).</dd>
+</dl>
+<div class="read"><h3>How to read this page</h3>
+<p><b>Filled</b> means the field holds anything other than an empty or whitespace-only string. Placeholders such as &ldquo;s.n.&rdquo; or &ldquo;[data not captured]&rdquo;, and codes such as recordSecurity &ldquo;0&rdquo;, count as filled.</p>
+<p><b>% of records</b>: share of this herbarium&rsquo;s records that are filled.</p>
+<p><b>Most repeated value</b>: the value held by the most records (cut to 60 characters; on a tie, one of the tied values), with its count and its share of the filled records. Where no value occurs more than once, the row says &ldquo;no value repeated&rdquo;. Where fewer than 20 records are filled, it also shows one of the values, marked &ldquo;for example&rdquo;: it is not chosen as typical.</p>
+<p><span class="mark">&#9670;</span> marks fields that the portal fills, derives or defaults for some or all records (from the collection&rsquo;s settings, the taxonomic thesaurus, the date, or the system itself). Values there say little about the herbarium&rsquo;s own entry work.</p>
+<p>Field names on this page are the names used in CLH&rsquo;s public download (Darwin Core terms). The portal&rsquo;s own pages and its editor use different labels for some of them: what the portal shows as &ldquo;Collector&rdquo; is recordedBy here, &ldquo;Number&rdquo; is recordNumber, &ldquo;Additional Collectors&rdquo; is associatedCollectors, &ldquo;Determiner&rdquo; is identifiedBy, and &ldquo;Date&rdquo; is eventDate. These labels are translations, and the fit is not always exact. eventDate is commonly read as the date of collection, but in some records it can be shown to hold another date. Some fields are filled by the portal rather than by the herbarium, and some values in the download are combined from several fields in the editor.</p>
+</div>
+<h2>The fields</h2>
+<table><thead><tr><th>col</th><th>field</th><th class="n">filled</th><th class="n">% of records</th><th class="n">different values</th><th>most repeated value</th><th class="n">records</th><th class="n">share of filled</th></tr></thead><tbody>
+<tr class="g"><td colspan="8">Identity and codes</td></tr>
+<tr><td class="n">1</td><td class="f">id&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">31,385</td><td class="c" colspan="3">(no value repeated)</td></tr>
+<tr><td class="n">2</td><td class="f">institutionCode&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1</td><td class="val">ALA</td><td class="n">31,385</td><td class="n">100.0%</td></tr>
+<tr><td class="n">5</td><td class="f">basisOfRecord&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1</td><td class="val">PreservedSpecimen</td><td class="n">31,385</td><td class="n">100.0%</td></tr>
+<tr><td class="n">6</td><td class="f">occurrenceID&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">31,385</td><td class="c" colspan="3">(no value repeated)</td></tr>
+<tr><td class="n">7</td><td class="f">catalogNumber</td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">26,985</td><td class="val">UAMb:Herb:2347</td><td class="n">4</td><td class="n">&lt;0.1%</td></tr>
+<tr><td class="n">8</td><td class="f">otherCatalogNumbers</td><td class="n">30,876</td><td class="n">98.4%</td><td class="n">26,106</td><td class="val">ALAAC=Unknown; original identifier=4704</td><td class="n">5</td><td class="n">&lt;0.1%</td></tr>
+<tr><td class="n">105</td><td class="f">recordID&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">31,385</td><td class="c" colspan="3">(no value repeated)</td></tr>
+<tr><td class="n">106</td><td class="f">references&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">31,385</td><td class="c" colspan="3">(no value repeated)</td></tr>
+<tr><td class="n">104</td><td class="f">collID&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1</td><td class="val">51</td><td class="n">31,385</td><td class="n">100.0%</td></tr>
+<tr><td class="n">103</td><td class="f">sourcePrimaryKey-dbpk</td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">31,385</td><td class="c" colspan="3">(no value repeated)</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: collectionCode, ownerInstitutionCode</td></tr>
+<tr class="g"><td colspan="8">The name</td></tr>
+<tr><td class="n">10</td><td class="f">kingdom&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1</td><td class="val">Fungi</td><td class="n">31,385</td><td class="n">100.0%</td></tr>
+<tr><td class="n">11</td><td class="f">phylum&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">2</td><td class="val">Ascomycota</td><td class="n">31,344</td><td class="n">99.9%</td></tr>
+<tr><td class="n">12</td><td class="f">class&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">10</td><td class="val">Lecanoromycetes</td><td class="n">30,672</td><td class="n">97.7%</td></tr>
+<tr><td class="n">13</td><td class="f">order&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">30</td><td class="val">Lecanorales</td><td class="n">19,188</td><td class="n">61.1%</td></tr>
+<tr><td class="n">14</td><td class="f">family&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">85</td><td class="val">Parmeliaceae</td><td class="n">8,913</td><td class="n">28.4%</td></tr>
+<tr><td class="n">15</td><td class="f">scientificName</td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1,745</td><td class="val">Cladonia gracilis</td><td class="n">573</td><td class="n">1.8%</td></tr>
+<tr><td class="n">16</td><td class="f">taxonID&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1,745</td><td class="val">53416</td><td class="n">573</td><td class="n">1.8%</td></tr>
+<tr><td class="n">17</td><td class="f">scientificNameAuthorship&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,300</td><td class="n">99.7%</td><td class="n">1,017</td><td class="val">(L.) Willd.</td><td class="n">1,384</td><td class="n">4.4%</td></tr>
+<tr><td class="n">18</td><td class="f">genus</td><td class="n">31,363</td><td class="n">99.9%</td><td class="n">298</td><td class="val">Cladonia</td><td class="n">6,300</td><td class="n">20.1%</td></tr>
+<tr><td class="n">19</td><td class="f">subgenus</td><td class="n">900</td><td class="n">2.9%</td><td class="n">7</td><td class="val">Umbilicaria (Umbilicaria)</td><td class="n">548</td><td class="n">60.9%</td></tr>
+<tr><td class="n">20</td><td class="f">specificEpithet</td><td class="n">30,022</td><td class="n">95.7%</td><td class="n">1,264</td><td class="val">gracilis</td><td class="n">664</td><td class="n">2.2%</td></tr>
+<tr><td class="n">21</td><td class="f">verbatimTaxonRank</td><td class="n">489</td><td class="n">1.6%</td><td class="n">2</td><td class="val">subsp.</td><td class="n">420</td><td class="n">85.9%</td></tr>
+<tr><td class="n">22</td><td class="f">infraspecificEpithet</td><td class="n">489</td><td class="n">1.6%</td><td class="n">43</td><td class="val">beringiana</td><td class="n">65</td><td class="n">13.3%</td></tr>
+<tr><td class="n">25</td><td class="f">taxonRank</td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">5</td><td class="val">Species</td><td class="n">29,533</td><td class="n">94.1%</td></tr>
+<tr><td class="n">32</td><td class="f">acceptedNameUsage&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1,510</td><td class="val">Cladonia gracilis</td><td class="n">573</td><td class="n">1.8%</td></tr>
+<tr><td class="n">33</td><td class="f">acceptedNameUsageAuthorship&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,284</td><td class="n">99.7%</td><td class="n">1,011</td><td class="val">(L.) Willd.</td><td class="n">1,384</td><td class="n">4.4%</td></tr>
+<tr><td class="n">34</td><td class="f">acceptedNameUsageID&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">1,510</td><td class="val">53416</td><td class="n">573</td><td class="n">1.8%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: higherClassification, cultivarEpithet, tradeName</td></tr>
+<tr class="g"><td colspan="8">The identification</td></tr>
+<tr><td class="n">26</td><td class="f">identifiedBy</td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">68</td><td class="val">unknown</td><td class="n">17,582</td><td class="n">56.0%</td></tr>
+<tr><td class="n">27</td><td class="f">dateIdentified</td><td class="n">30,733</td><td class="n">97.9%</td><td class="n">2,662</td><td class="val">1800-01-01</td><td class="n">7,576</td><td class="n">24.7%</td></tr>
+<tr><td class="n">28</td><td class="f">identificationReferences</td><td class="n">3</td><td class="n">&lt;0.1%</td><td class="n">1</td><td class="val">&lt;a href=http://arctos.database.museum/publication/10008569&gt;L</td><td class="n">3</td><td class="n">100.0%</td></tr>
+<tr><td class="n">29</td><td class="f">identificationRemarks</td><td class="n">29,684</td><td class="n">94.6%</td><td class="n">548</td><td class="val">Former nature_of_id: legacy.</td><td class="n">21,459</td><td class="n">72.3%</td></tr>
+<tr><td class="n">35</td><td class="f">typeStatus</td><td class="n">45</td><td class="n">0.1%</td><td class="n">13</td><td class="val">voucher of &lt;a href=http://arctos.database.museum/name/Parmel</td><td class="n">12</td><td class="n">26.7%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: taxonRemarks, identificationQualifier</td></tr>
+<tr class="g"><td colspan="8">Who collected it, and when</td></tr>
+<tr><td class="n">36</td><td class="f">recordedBy</td><td class="n">31,231</td><td class="n">99.5%</td><td class="n">333</td><td class="val">unknown</td><td class="n">8,413</td><td class="n">26.9%</td></tr>
+<tr><td class="n">38</td><td class="f">recordNumber</td><td class="n">1,375</td><td class="n">4.4%</td><td class="n">1,251</td><td class="val">4704</td><td class="n">7</td><td class="n">0.5%</td></tr>
+<tr><td class="n">54</td><td class="f">fieldNumber</td><td class="n">482</td><td class="n">1.5%</td><td class="n">170</td><td class="val">KOVA-8</td><td class="n">10</td><td class="n">2.1%</td></tr>
+<tr><td class="n">39</td><td class="f">eventDate</td><td class="n">31,345</td><td class="n">99.9%</td><td class="n">3,011</td><td class="val">1800-01-01</td><td class="n">5,804</td><td class="n">18.5%</td></tr>
+<tr><td class="n">42</td><td class="f">year&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,368</td><td class="n">99.9%</td><td class="n">98</td><td class="val">1800</td><td class="n">5,808</td><td class="n">18.5%</td></tr>
+<tr><td class="n">43</td><td class="f">month&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,345</td><td class="n">99.9%</td><td class="n">13</td><td class="val">7</td><td class="n">11,779</td><td class="n">37.6%</td></tr>
+<tr><td class="n">44</td><td class="f">day&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,345</td><td class="n">99.9%</td><td class="n">32</td><td class="val">1</td><td class="n">8,493</td><td class="n">27.1%</td></tr>
+<tr><td class="n">45</td><td class="f">startDayOfYear&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,130</td><td class="n">99.2%</td><td class="n">316</td><td class="val">1</td><td class="n">5,856</td><td class="n">18.8%</td></tr>
+<tr><td class="n">46</td><td class="f">endDayOfYear&nbsp;<span class="mark">&#9670;</span></td><td class="n">30,462</td><td class="n">97.1%</td><td class="n">316</td><td class="val">1</td><td class="n">5,856</td><td class="n">19.2%</td></tr>
+<tr><td class="n">47</td><td class="f">verbatimEventDate</td><td class="n">31,359</td><td class="n">99.9%</td><td class="n">3,463</td><td class="val">1800-01-01</td><td class="n">5,804</td><td class="n">18.5%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: associatedCollectors, eventID, eventDate2, eventTime</td></tr>
+<tr class="g"><td colspan="8">Where</td></tr>
+<tr><td class="n">70</td><td class="f">continent</td><td class="n">228</td><td class="n">0.7%</td><td class="n">5</td><td class="val">Europe</td><td class="n">139</td><td class="n">61.0%</td></tr>
+<tr><td class="n">71</td><td class="f">waterBody</td><td class="n">11</td><td class="n">&lt;0.1%</td><td class="n">1</td><td class="val">Bering Sea</td><td class="n">11</td><td class="n">100.0%</td></tr>
+<tr><td class="n">74</td><td class="f">country</td><td class="n">31,297</td><td class="n">99.7%</td><td class="n">36</td><td class="val">United States</td><td class="n">27,778</td><td class="n">88.8%</td></tr>
+<tr><td class="n">75</td><td class="f">countryCode</td><td class="n">31,215</td><td class="n">99.5%</td><td class="n">35</td><td class="val">US</td><td class="n">27,778</td><td class="n">89.0%</td></tr>
+<tr><td class="n">76</td><td class="f">stateProvince</td><td class="n">27,758</td><td class="n">88.4%</td><td class="n">99</td><td class="val">Alaska</td><td class="n">25,082</td><td class="n">90.4%</td></tr>
+<tr><td class="n">77</td><td class="f">county</td><td class="n">181</td><td class="n">0.6%</td><td class="n">24</td><td class="val">North Slope Borough</td><td class="n">49</td><td class="n">27.1%</td></tr>
+<tr><td class="n">79</td><td class="f">locality</td><td class="n">23,758</td><td class="n">75.7%</td><td class="n">4,150</td><td class="val">No specific locality recorded.</td><td class="n">5,445</td><td class="n">22.9%</td></tr>
+<tr><td class="n">80</td><td class="f">locationRemarks</td><td class="n">7,795</td><td class="n">24.8%</td><td class="n">18</td><td class="val">See: https://github.com/ArctosDB/arctos/issues/4757</td><td class="n">7,573</td><td class="n">97.2%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: islandGroup, island, municipality, locationID</td></tr>
+<tr class="g"><td colspan="8">Coordinates and georeferencing</td></tr>
+<tr><td class="n">83</td><td class="f">decimalLatitude</td><td class="n">18,149</td><td class="n">57.8%</td><td class="n">2,988</td><td class="val">67.748937</td><td class="n">285</td><td class="n">1.6%</td></tr>
+<tr><td class="n">84</td><td class="f">decimalLongitude</td><td class="n">18,149</td><td class="n">57.8%</td><td class="n">3,125</td><td class="val">-153.30064</td><td class="n">285</td><td class="n">1.6%</td></tr>
+<tr><td class="n">85</td><td class="f">geodeticDatum</td><td class="n">17,143</td><td class="n">54.6%</td><td class="n">4</td><td class="val">North American Datum 1983</td><td class="n">11,504</td><td class="n">67.1%</td></tr>
+<tr><td class="n">86</td><td class="f">coordinateUncertaintyInMeters</td><td class="n">12,545</td><td class="n">40.0%</td><td class="n">70</td><td class="val">50</td><td class="n">7,211</td><td class="n">57.5%</td></tr>
+<tr><td class="n">87</td><td class="f">verbatimCoordinates</td><td class="n">17,141</td><td class="n">54.6%</td><td class="n">3,189</td><td class="val">66.333333/-164.116667</td><td class="n">118</td><td class="n">0.7%</td></tr>
+<tr><td class="n">88</td><td class="f">georeferencedBy</td><td class="n">31,362</td><td class="n">99.9%</td><td class="n">64</td><td class="val">Jordan Metzgar</td><td class="n">11,704</td><td class="n">37.3%</td></tr>
+<tr><td class="n">89</td><td class="f">georeferenceProtocol</td><td class="n">18,149</td><td class="n">57.8%</td><td class="n">3</td><td class="val">not recorded</td><td class="n">17,246</td><td class="n">95.0%</td></tr>
+<tr><td class="n">90</td><td class="f">georeferenceSources</td><td class="n">18,149</td><td class="n">57.8%</td><td class="n">17</td><td class="val">Global Positioning System (transcription)</td><td class="n">7,871</td><td class="n">43.4%</td></tr>
+<tr><td class="n">91</td><td class="f">georeferenceVerificationStatus</td><td class="n">31,362</td><td class="n">99.9%</td><td class="n">3</td><td class="val">unverified</td><td class="n">31,233</td><td class="n">99.6%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: georeferenceRemarks</td></tr>
+<tr class="g"><td colspan="8">Elevation and depth</td></tr>
+<tr><td class="n">93</td><td class="f">minimumElevationInMeters</td><td class="n">16,118</td><td class="n">51.4%</td><td class="n">1,053</td><td class="val">15</td><td class="n">395</td><td class="n">2.5%</td></tr>
+<tr><td class="n">94</td><td class="f">maximumElevationInMeters</td><td class="n">16,957</td><td class="n">54.0%</td><td class="n">1,066</td><td class="val">10</td><td class="n">613</td><td class="n">3.6%</td></tr>
+<tr><td class="n">95</td><td class="f">minimumDepthInMeters</td><td class="n">1</td><td class="n">&lt;0.1%</td><td class="n">1</td><td class="val"><span class="c">one record: </span>1130</td><td class="n" colspan="2"></td></tr>
+<tr><td class="n">96</td><td class="f">maximumDepthInMeters</td><td class="n">1</td><td class="n">&lt;0.1%</td><td class="n">1</td><td class="val"><span class="c">one record: </span>1130</td><td class="n" colspan="2"></td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: verbatimElevation, verbatimDepth</td></tr>
+<tr class="g"><td colspan="8">Habitat, substrate and the organism</td></tr>
+<tr><td class="n">49</td><td class="f">habitat</td><td class="n">10,326</td><td class="n">32.9%</td><td class="n">6,345</td><td class="val">Partial shade, mesic, Picea glauca branch.</td><td class="n">162</td><td class="n">1.6%</td></tr>
+<tr><td class="n">60</td><td class="f">associatedTaxa</td><td class="n">8</td><td class="n">&lt;0.1%</td><td class="n">7</td><td class="val">Dicranum sp.</td><td class="n">2</td><td class="n">25.0%</td></tr>
+<tr><td class="n">62</td><td class="f">establishmentMeans</td><td class="n">31,135</td><td class="n">99.2%</td><td class="n">2</td><td class="val">wild</td><td class="n">30,816</td><td class="n">99.0%</td></tr>
+<tr><td class="n">66</td><td class="f">individualCount</td><td class="n">319</td><td class="n">1.0%</td><td class="n">1</td><td class="val">1</td><td class="n">319</td><td class="n">100.0%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: substrate, verbatimAttributes, behavior, vitality, reproductiveCondition, cultivationStatus, lifeStage, sex, samplingProtocol</td></tr>
+<tr class="g"><td colspan="8">Remarks and record-keeping</td></tr>
+<tr><td class="n">48</td><td class="f">occurrenceRemarks</td><td class="n">11</td><td class="n">&lt;0.1%</td><td class="n">11</td><td class="val"><span class="c">for example: </span>Cladonia rangiferina subsp. rangiferina</td><td class="n" colspan="2">no value repeated</td></tr>
+<tr><td class="n">58</td><td class="f">dynamicProperties</td><td class="n">870</td><td class="n">2.8%</td><td class="n">114</td><td class="val">verbatim agent=Tracy Wiese</td><td class="n">112</td><td class="n">12.9%</td></tr>
+<tr><td class="n">68</td><td class="f">preparations</td><td class="n">30,875</td><td class="n">98.4%</td><td class="n">2</td><td class="val">whole organism</td><td class="n">30,083</td><td class="n">97.4%</td></tr>
+<tr><td class="n">100</td><td class="f">language</td><td class="n">319</td><td class="n">1.0%</td><td class="n">1</td><td class="val">en</td><td class="n">319</td><td class="n">100.0%</td></tr>
+<tr><td class="n">56</td><td class="f">informationWithheld</td><td class="n">23</td><td class="n">0.1%</td><td class="n">6</td><td class="val">field values redacted: eventDate, month, day, startDayOfYear</td><td class="n">8</td><td class="n">34.8%</td></tr>
+<tr><td class="n">81</td><td class="f">recordSecurity&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">2</td><td class="val">0</td><td class="n">31,362</td><td class="n">99.9%</td></tr>
+<tr><td class="n">102</td><td class="f">modified&nbsp;<span class="mark">&#9670;</span></td><td class="n">31,385</td><td class="n">100.0%</td><td class="n">5,560</td><td class="val">2022-12-06 11:28:51</td><td class="n">4,612</td><td class="n">14.7%</td></tr>
+<tr class="e"><td></td><td colspan="7">Empty here: associatedSequences, disposition, dataGeneralizations, securityReason, recordEnteredBy</td></tr>
+</tbody></table>
+<p class="sub">End of page. Herbarium ALA, snapshot clh_2026_08 (August 2026), made 2026-10-25.</p>
+</body></html>
